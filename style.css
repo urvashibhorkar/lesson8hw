@@ -1,0 +1,118 @@
+body {
+	/*width: 900px;*/
+	/*margin: 0 auto;*/
+	font-family: arial;
+	font-size: 14px;
+	background-color: lightgrey;
+}
+
+h1 {
+	background-image: url("denim-background.jpeg");
+	padding: top 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	color: darkblue	
+}
+
+h2, h3, h4 {
+	padding: top 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: darkblue	
+}
+
+.slim {
+	margin: 2.5%;
+	width: 60%;
+	background-image: url("denim-background.jpeg");
+	padding: 15px;
+}
+
+.col {
+	width: 45%;
+	margin: 2.5%;
+	float: left;
+	/*display: block;*/
+	text-align: justify;
+}
+
+.three-fits {
+	text-transform: capitalize;
+	text-decoration: none;
+	color: royalblue;
+	margin: 20px
+}
+
+.lookbook {
+	text-transform: capitalize;
+	text-decoration: none;
+	color: royalblue;
+	padding-left: 20px;
+}
+
+.col-fit {
+	width: 26%;
+	margin: 0 auto;
+	padding: 2.5%;
+	float: left;
+	text-align: justify;
+	display: inline-block;
+}
+
+.first-page {
+	text-transform: capitalize;
+	text-decoration: none;
+	color: royalblue;
+	padding-top: 50px;
+	/*margin: 20px;*/
+}
+
+#images {
+	background-image: url("denim-background.jpeg");
+	width: 100%;
+	margin: 0 auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.jeans {
+	background: darkgrey;
+	height: 250px;
+	padding: 1%;
+	margin-left: 2%;
+	float: left;
+}
+
+@media all and (max-width: 600px){
+
+    body {
+        background-color: lightblue;
+    }
+
+    .col{
+    	width: 95%;
+    	float:none;
+    	/*width: auto;*/	
+    }
+    
+    .col-fit {
+    	width: 95%;
+    	/*float:none;*/
+    	/*width: auto;*/
+    }
+
+    .additional-info {
+    	display:none;
+    }
+
+    .jeans {
+    	float:none;
+    	width:auto;
+    	margin-left: 70px;
+    	margin-right: 50px;
+    }
+}
